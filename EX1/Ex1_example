@@ -1,0 +1,3 @@
+def Ex1_example(num_minutes):
+  seconds = num_minutes * 60
+  return seconds
