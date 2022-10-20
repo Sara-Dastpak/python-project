@@ -1,3 +1,0 @@
-def EX1_1(number):
-  answer = number + 1
-  return answer
