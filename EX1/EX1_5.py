@@ -1,4 +1,9 @@
 def EX1_5(age):
+  '''
+  (int) -> int
+  >>> EX1_5(15)
+  Child
+  '''
   if age > 0 and age <= 1:
     answer = "Infant"
     return answer
