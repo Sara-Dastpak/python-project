@@ -1,11 +1,12 @@
-def EX3_2(list):
-  mul = []
-  i = 0
-  if len(list) > 1 :
-    while i < len(list)-1:
-      mul[i] = list[i] * list[i+1]
+def EX3_2(nums):
+  length = len(nums) - 1
+  multiplication = []
+  if length > 0:
+    for i in range(0 ,length):
+      j = i + 1
+      mul = nums[i] * nums[j]
+      multiplication.append(mul)
+      multiplication.sort()
+    return multiplication[length - 1]
   else:
     return "Error"
-  mul.sort()
-  answer = len(list) - 2
-  return mul[answer]
